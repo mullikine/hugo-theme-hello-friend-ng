@@ -35,7 +35,7 @@ body {
     font-size: 1rem;
   }
 
-  @media (prefers-color-scheme: dark) {
+  @media () {
     background-color: $dark-background;
     color: $dark-color;
   }
@@ -175,7 +175,7 @@ figure {
 em, i, strong {
   color: black;
 
-  @media (prefers-color-scheme: dark) {
+  @media () {
     color: white;
   }
 }
@@ -190,7 +190,7 @@ code {
   border-radius: 5px;
   font-size: 0.95rem;
 
-  @media (prefers-color-scheme: dark) {
+  @media () {
     background: $dark-background-secondary;
   }
 }
@@ -214,7 +214,7 @@ pre {
     padding: 0;
     font-size: inherit;
 
-    @media (prefers-color-scheme: dark) {
+    @media () {
       color: inherit;
     }
   }
@@ -290,7 +290,7 @@ hr {
   background: $light-border-color;
   height: 1px;
 
-  @media (prefers-color-scheme: dark) {
+  @media () {
     background: $dark-border-color;
   }
 }

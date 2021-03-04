@@ -119,7 +119,7 @@
       letter-spacing: 0.1em;
       z-index: 1;
 
-      @media (prefers-color-scheme: dark) {
+      @media () {
         background: $dark-background;
         color: $dark-color-secondary;
       }
@@ -161,7 +161,7 @@
   cursor: pointer;
   appearance: none;
 
-  @media (prefers-color-scheme: dark) {
+  @media () {
     background: $dark-background-secondary;
   }
 
