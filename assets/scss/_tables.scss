@@ -11,9 +11,7 @@
       padding: 12px 15px;
       border: 1px solid $light-table-color;
 
-      @media () {
         border: 1px solid $dark-table-color;
-      }
     }
 
     thead {
@@ -22,10 +20,8 @@
         color: $light-color;
         text-align: left;
 
-        @media () {
           background-color: $dark-table-color;
           color: $dark-color;
-        }
       }
     }
 
@@ -33,9 +29,7 @@
       tr {
         border: 1px solid $light-table-color;
         
-        @media () {
           border: 1px solid $dark-table-color;
-        }
       }
     }
   }

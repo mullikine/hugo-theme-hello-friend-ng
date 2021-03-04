@@ -23,10 +23,8 @@ a.button {
   cursor: pointer;
   outline: none;
 
-  @media () {
     background: $dark-background-secondary;
     color: inherit;
-  }
 
   &.outline {
     background: transparent;
@@ -34,10 +32,8 @@ a.button {
     box-shadow: none;
     padding: 8px 18px;
 
-    @media () {
       border-color: $dark-background-secondary;
       color: inherit;
-    }
 
     :hover {
       transform: none;
@@ -89,9 +85,7 @@ a.button {
     cursor: pointer;
     outline: none;
 
-    @media () {
       background: $dark-background-secondary;
       color: inherit;
-    }
   }
 }

@@ -2,9 +2,7 @@
   background: $light-background-header;
   z-index: 9999;
 
-  @media () {
     background: $dark-background-header;
-  }
 
   @media #{$media-size-phone} {
     position: absolute;

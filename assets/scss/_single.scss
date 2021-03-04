@@ -119,10 +119,8 @@
       letter-spacing: 0.1em;
       z-index: 1;
 
-      @media () {
         background: $dark-background;
         color: $dark-color-secondary;
-      }
     }
 
     hr {
@@ -161,9 +159,7 @@
   cursor: pointer;
   appearance: none;
 
-  @media () {
     background: $dark-background-secondary;
-  }
 
   + .button {
     margin-left: 10px;
