@@ -350,6 +350,11 @@ hr {
   line-height: 1.2em !important;
 }
 
+.highlight > div {
+    border:none !important;
+    background:none !important;
+}
+
 .highlight > div > table {
   border:none !important;
   background:none !important;
