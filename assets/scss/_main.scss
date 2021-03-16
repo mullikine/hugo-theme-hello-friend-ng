@@ -350,12 +350,12 @@ hr {
   line-height: 1.2em !important;
 }
 
-.highlight table {
+.highlight > div > table {
   border:none !important;
   background:none !important;
 }
 
-.highlight table tbody {
+.highlight > div > table > tbody {
     border:none !important;
     background:none !important;
 }
