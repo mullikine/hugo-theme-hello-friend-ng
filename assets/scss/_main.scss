@@ -358,6 +358,7 @@ hr {
 .highlight > div > table {
   border:none !important;
   background:none !important;
+  margin-right: 1em;
 }
 
 .highlight > div > table > tbody {
@@ -386,5 +387,5 @@ hr {
 
 .highlight tr > td + td {
     padding-top: 0.0em;
-    padding-right: 0.5em;
-}
+    // padding-right: 0.5em;
+g}
