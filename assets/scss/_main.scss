@@ -355,6 +355,10 @@ hr {
   line-height: 1.2em !important;
 }
 
-.highlight pre {
+.highlight tr > td {
     padding-top: 0.4em;
+}
+
+.highlight tr > td + td {
+    padding-top: 0.0em;
 }
